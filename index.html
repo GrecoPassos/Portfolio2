@@ -1,15 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     
+    <nav>
+        <a href="#" class="logo"> <span>Greco</span></a>
 
+        <ul class="Links">
+            <a href="#home">home</a>
+            <a href="#about">about</a>
+            <a href="#services">Services</a>
+            <a href="#contact">Contact</a>
+        </ul>
 
+        <i class='bx bx-menu' id="menu"></i>
+        
+        <a href="#contact" class="btn">Contact Me</a>
+    </nav>
+
+    <section id="home">
+        <img src="img/euprovisorio.jpg" alt="Foto de Perfil">
+
+        <div class="info-box">
+            <h1><span>Hello, I'm Greco</span></h1>
+            <h3><span>Web Developer</span> Based in Bahia/Brazil</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestias necessitatibus quos dolore amet fugit, alias nihil odit voluptas molestiae non?</p>
+        </div>
+
+        <div class="btn-box">
+            <div class="btn">Hire</div>
+            <div class="btn">Contact Me</div>
+        </div>
+    </section>
+
+    <section id="about">
+
+        <div class="about-box">
+            <div class="about-info">
+                <h1><span>About Me</span></h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est autem nesciunt non molestias, incidunt vero vel, fugit animi perspiciatis voluptatem cum quasi architecto, facere eos sit rem cumque velit. Incidunt.</p>
+            </div>
+
+            <h2><span>Skilss</span></h2>
+
+            <div class="skills">
+                <ul>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i> HTML </span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i> CSS </span>
+                    </li>
+                    <li>
+                        <span><i class='bx bx-chevron-right'></i> JAVASCRIPT </span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <img src="img/euprovisorio.jpg" alt="">
+    </section>
+
+    <section id="services">
+        <h1 class="header">
+            <span>Services</span>
+        </h1>
+
+        <div class="sevices-container">
+            <div class="box">
+                <h1><span>Web Desing</span></h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, qui quae. Modi dicta facere inventore obcaecati vel consectetur ipsum quibusdam ducimus quos, veniam itaque asperiores, ipsa sed. Laborum, placeat deserunt!</p>
+                <img src="img/project1.jpeg" alt="">
+            </div>
+            <div class="box">
+                <h1><span>Web Developer</span></h1>
+
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti, qui quae. Modi dicta facere inventore obcaecati vel consectetur ipsum quibusdam ducimus quos, veniam itaque asperiores, ipsa sed. Laborum, placeat deserunt!</p>
+                <img src="img/project2.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
 
     <script src="script.js"></script>
 </body>
