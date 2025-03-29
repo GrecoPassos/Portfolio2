@@ -218,3 +218,144 @@ section{
     font-size: 2.5em;
 }
 
+#services {
+    background-color: var(--background);
+}
+
+.header {
+    text-align: center;
+    font-size: 5em;
+    margin: 0.5em 0;
+}
+
+.sercices-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2em;
+}
+
+.box {
+    border : 3px solid rgb(49, 49, 49);
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    object-fit: contain;
+    padding: 3em;
+    gap: 2em;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.box:hover {
+    border: 3px solid rgb(100, 100, 100);
+}
+
+.box p {
+    opacity: 0.8;
+}
+
+.box h1  {
+    font-size: 2em;
+}
+
+.box img {
+    min-width: 25px;
+    border-radius: 0.5em;
+}
+
+#contact {
+    background-color: var(--second-background);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+    justify-content: center;
+}
+
+form .input-box {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    gap: 1em;
+}
+
+.input-box span {
+    font-size: 1.5em;
+}
+
+form input{
+    font-size: 1.3em;
+    padding: 1em 5em;
+    border-radius: 0.5em;
+    border: none;
+    outline: none;
+}
+
+form input:focus {
+    background-color: rgb(229, 229, 229);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10em;
+    bottom: 0;
+    background-color: var(--background);
+    width: 100%;
+    padding: 5em 15%;
+}
+
+.col-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.col-box {
+    display: flex;
+    flex-direction: center;
+    gap: 1em;
+}
+
+.col-box i {
+    font-size: 2em;
+}
+
+.col-box span {
+    font-size: 1.2em;
+}
+.col-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    color: #fff;
+    max-width: 500px;
+}
+
+.col_right span {
+    font-size: 1.3em;
+}
+
+.col-right .social-icons {
+    display: flex;
+    align-items: baseline;
+    justify-content: left;
+    gap: 1em;
+}
+
+.col-right .social-icons i{
+    font-size: 2em;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #fff;
+}
