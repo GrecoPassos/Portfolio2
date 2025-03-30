@@ -91,7 +91,7 @@
 
     <section id="contact">
 
-        <h1 class="header">Contact</h1>
+        <h1 class="header"><span>Contact</span></h1>
 
         <form action="#">
 
@@ -146,16 +146,25 @@
             <span>About My Services</span>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum voluptate eaque nobis itaque incidunt eveniet adipisci non ducimus minus optio in, tenetur labore sapiente fugit beatae voluptas placeat sit a.</p>
             <div class="social-icons">
+                <a href="https://github.com/GrecoPassos" target="_blank">
                 <span><i class='bx bxl-github'></i></span>
-
+                    </a>
+                <a href="https://www.linkedin.com/in/grecopassos/" target="_blank">
                 <span><i class='bx bxl-linkedin-square'></i></span>
-
+                    </a>
+                <a href="http://discordapp.com/users/grctsu" target="_blank">
                 <span><i class='bx bxl-discord'></i></span>
-
+                    </a>
             </div>
         </div>
 
     </footer>
+
+    <script>
+    document.getElementById("menu").addEventListener("click", function() {
+        document.querySelector("nav ul").classList.toggle("active");
+    });
+</script>
 
     <script src="script.js"></script>
 </body>
